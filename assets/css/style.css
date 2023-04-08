@@ -1,1 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;1,300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+
+body{
+  font-family: Oswald, sans-serif;
+  color: #493d3d;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+/* headings */
+
+h1, h2, h3 {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  color: #036203;
+  letter-spacing: 5px;
+}
+
+.main-title {
+float:left;
+font-size: 270%;
+}
+  
+.hero-image{
+  height:600px;
+  width: 100%;
+  background-size: 130%;
+  background: url(../images/chisinau1.jpg) no-repeat center center;
+}
+
