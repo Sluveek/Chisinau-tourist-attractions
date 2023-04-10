@@ -125,6 +125,7 @@ padding-bottom: 5%;
 }
 
 /* footer */
+
 footer {
   height: 150%;
 }
@@ -143,5 +144,21 @@ footer {
   color: rgb(36, 36, 186);
 }
 
-/* Atractions */
+/* Page 2 Atractions */
 
+/* iframe */
+
+.youtube-video-container {
+  position: relative;
+  width:100%; 
+  height: auto;
+  padding-bottom: 56.25%;
+  
+}
+
+.media-iframe {
+  position: absolute; 
+  width: 100%;
+  height: 100%; 
+  top: 0; left: 0;
+}
