@@ -144,7 +144,11 @@ footer {
   color: rgb(36, 36, 186);
 }
 
-/* Page 2 Atractions */
+/* Atractions */
+
+.images-container {
+  width: 100%;
+}
 
 /* iframe */
 
