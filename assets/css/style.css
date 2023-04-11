@@ -239,4 +239,25 @@ footer {
       margin-bottom: 20px;
       line-height: 25px;
   }
+
+  .about {
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
+  }
+
+  .left-about, .right-about {
+    width: inherit;
+  }
+
+  .left-about  h2, .right-about h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-about  p, .right-about p {
+    text-align: center;
+    padding: 0%;
+  }
 }
+
