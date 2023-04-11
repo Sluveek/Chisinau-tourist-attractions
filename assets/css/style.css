@@ -144,10 +144,15 @@ footer {
 
 /* Atractions */
 
+.images {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0px;
+}
+
 .images > img {
-  height: 280px;
-  width: 31%;
-  background-position: center;
+  width: 100%;
 }
 
 .description {
@@ -259,5 +264,19 @@ footer {
     text-align: center;
     padding: 0%;
   }
+
+  .images {
+    column-count: 3;
+  }
+
+  .description h2 {
+    width: 100%;
+    text-align: center;
 }
 
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+  .images {
+      column-count: 2;
+  }
+}
