@@ -11,7 +11,7 @@ body{
   font-family: Oswald, sans-serif;
   color: #493d3d;
   margin: 0;
-  background-color: #e3e7e7;
+  background-color: #f3f6f6;
 }
 
 /* headings */
@@ -19,7 +19,7 @@ body{
 h1, h2, h3 {
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
-  color: #1A2C1E;
+  color: #1a262c;
   letter-spacing: 5px;
 }
 
@@ -85,14 +85,12 @@ padding-bottom: 5%;
   padding-top: 30px;
   width: 33%;
   float: left;
-  background-color: silver;
 }
 
 .right-about {
   padding-top: 30px;
   width: 33%;
   float: right;
-  background-color: greenyellow;
 }
 
 .center-about {
@@ -146,18 +144,17 @@ footer {
 
 /* Atractions */
 
-.attractions {
-  clear: both;
-  line-height: 0;
-  column-count: 4;
-  column-gap: 0;
+.images > img {
+  height: 280px;
+  width: 31%;
+  background-position: center;
 }
 
-.attractions > img {
-  width: 100%;
+.description {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 180%;
 }
-
-
 
 /* feedback form */
 
@@ -193,4 +190,8 @@ footer {
   margin: 5px 0 20px 0;
   border: 1px solid #fafafa;
   border-radius: 2px;
+}
+
+.form-thanks {
+  text-align: center;
 }
